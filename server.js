@@ -27,7 +27,7 @@ function getWeatherData() {
 //Getting user choice
 function getUserChoice(climateData) {
   rl.question(
-    "Please choose an option:\n1. Get weather\n2. Get Wind Speed\n3. Get Pressure\n0. Exit\n",
+    "Please choose an option:\n1. Get weather \n2. Get Wind Speed \n3. Get Pressure \n0. Exit\n",
     (option) => {
       switch (option) {
         case "1":
